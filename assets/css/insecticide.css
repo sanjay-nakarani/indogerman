@@ -1,0 +1,119 @@
+.insecticide-container
+{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.insecticide-heading
+{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+text-transform: uppercase;
+text-align: center;
+color: rgba(44, 44, 105, 1);
+padding: 50px 0px;
+}
+.bottle-img
+{
+    max-width: 310px;
+    width: 100%;
+    border: 1px solid rgba(16, 42, 131, 0.2);
+    border-radius: 20px;
+    height: 300px;
+    
+}
+/* .bottle-img:hover
+{
+
+    background-color:  rgba(16, 42, 131, 0.5);
+
+    transition: all 0.5s ease-in-out;
+} */
+.bottle-main
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.bottle1
+{
+    max-width: 310px;
+    width: 100%;    
+}
+
+
+
+
+
+.bottle-text
+{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+padding: 20px 0px 25px 0px;
+}
+@media screen  and (max-width:1024px) {
+    .bottle1
+    {
+        max-width: 165px;
+        width: 100%;
+
+    }
+    .bottle-img
+{
+    max-width: 165px;
+    width: 100%;;
+    height: 200px;
+  }
+    .bottle-text
+    {
+        font-size: 18px;
+    }
+}
+@media screen  and (max-width:768px)
+{
+    .bottle-main
+    {
+        flex-wrap: wrap;
+    }
+    .bottle1
+    {
+        max-width: 253px;
+        width: 100%;
+    }
+    .bottle-img
+    {
+        max-width: 253px;
+        width: 100%;
+        height: 300px;
+    }
+     .bottle-text
+    {
+        font-size: 22px;
+    }
+    
+.insecticide-heading
+{
+    font-size: 42px;
+}
+}
+@media screen  and (max-width:768px)
+{
+        .insecticide-heading
+        {
+            font-size: 32px;
+        }
+        .bottle-text
+        {
+            font-size: 20px;
+        }
+}

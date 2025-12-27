@@ -1,0 +1,292 @@
+.about-section {
+  background: url(../image/about-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.about-back {
+  background: rgba(16, 42, 131, 0.5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/*  Who Section */
+.who-container
+{
+  max-width: 1300px;
+  width: 100%;
+  margin:0 auto;
+}
+.who-section {
+  background: url(../image/who-we-img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  opacity: 70%;
+  
+}
+.who-inner
+{
+  padding: 50px 10px;
+}
+.who-heading {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: rgba(16, 42, 131, 1);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.padding-text {
+  padding-top: 25px;
+}
+.who-sub-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 30px;
+  max-width: 1300px;
+  width: 100%;
+}
+
+/*  Quality Section */
+.quality-section {
+  background: url(../image/quality-policy.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.quality-back {
+  background: rgba(16, 42, 131, 0.5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quality-inner {
+  padding: 0px 10px;
+}
+.quality-heading {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.quality-sub-heading {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 25px;
+}
+.quality-sub-heading1 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*  Our Team */
+.our-inner {
+  padding: 50px 0px;
+}
+.our-heading {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(16, 42, 131, 1);
+}
+.our-main {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+  padding: 50px 70px;
+}
+.our-img {
+  
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  max-width: 531px;
+  width: 100%;
+  box-shadow: 0px 0px 4px 1px rgba(16, 42, 131, 0.2);
+}
+@media screen and (max-width:425px)
+{
+  .our-img{
+    max-width: 280px;
+    width: 100%;
+  }
+}
+.our-content {
+  max-width: 749px;
+  width: 100%;
+}
+.content-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.content-text1 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 25px;
+}
+
+/*  footer */
+
+
+
+
+/*   Responsive  */
+
+@media screen and (max-width: 1199.98px) {
+  .who-sub-text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+
+  .who-sub-text {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .about-heading {
+    font-size: 50px;
+  }
+  .quality-sub-heading1,
+  .quality-sub-heading {
+    font-size: 18px;
+  }
+  .our-main {
+    flex-direction: column;
+  }
+  .content-text,
+  .content-text1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content-text,
+  .content-text1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .our-inner
+  {
+    padding: 50px 10px;
+  }
+  .our-main
+  {
+    padding: 50px 0px 0px 0px;
+  }
+  .who-sub-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .about-heading {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .who-heading,
+  .quality-heading,
+  .our-heading {
+    font-size: 32px;
+  }
+  .quality-sub-heading1,
+  .quality-sub-heading {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media  screen and (max-width:425px) {
+  .who-sub-text {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+   .who-heading,
+  .quality-heading,
+  .our-heading {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  .about-section ,.about-back
+{
+  height: auto;
+}
+  .about-heading {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  
+  .quality-sub-heading1,
+  .quality-sub-heading {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  .content-text,
+  .content-text1 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+  .our-inner , .who-inner
+  {
+      padding: 50px 20px;
+  }
+  .quality-inner
+  {
+    padding: 0px 20px;
+  }
+  .our-main
+  {
+    padding: 30px 0px 0px 0px;
+  }
+}

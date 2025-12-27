@@ -1,0 +1,86 @@
+.insecticide {
+  background: url(../image/insecticide-back.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.insecticide-back {
+  background: rgba(16, 42, 131, 0.6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.insect-heading {
+  font-weight: 400;
+
+  font-size: 80px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.change-text-anim:after {
+  content:"";
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  0%  { content: "Insecticide"; } 
+  20% { content: "Fungicide"; }
+  40% { content: "Weedicide"; }
+  60% { content: "Fertilizer & wsf"; }
+  80% { content: "Bio Pesticide"; }
+  100% { content: "Bio stimulant"; }
+}
+.insecticide {
+animation: mymove 10s linear infinite;
+}
+
+@keyframes mymove {
+  0% {
+      background-image: url(../image/insecticide-back.jpg);
+  }
+  20%{
+      background-image: url(../image/product-back2.jpg);
+    
+  }
+  40%{
+    background-image: url(../image/product-back3.jpg);
+  }
+  60% {
+    background-image: url(../image/product-back4.png);
+  }
+  80%
+  {
+    background-image: url(../image/product-back5.png);
+  }
+  100%
+  {
+    background-image: url(../image/product-back6.png);
+  }
+}
+
+
+/* Responsive */
+
+
+
+@media screen and (max-width: 768px) {
+  .insect-heading {
+    font-size: 50px; 
+  }
+}
+@media screen and (max-width: 425px) {
+  .insect-heading {
+    font-size: 36px;
+  }
+  .insecticide-back
+  {
+    height: 50vh;
+  }
+  .insecticide
+  {
+    height: 50vh;
+  }
+}
