@@ -1,9 +1,10 @@
 .about-section {
-  background: url(../image/about-back.jpg);
+  /* background: url(../image/about-back.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   height: 100vh;
+  background-color: aqua;
 }
 .about-back {
   background: rgba(16, 42, 131, 0.5);
