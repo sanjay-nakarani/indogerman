@@ -184,11 +184,11 @@
 
 /*  Welcome Section */
 .welcome-inner {
-  /* background: url(../image/head-back.jpg);
+   background: url(../image/head-back.jpg);
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat; */
-  background-color: antiquewhite;
+  background-repeat: no-repeat; 
+  
 }
 .welcome-main {
   max-width: 600px;
